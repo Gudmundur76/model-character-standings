@@ -1,7 +1,7 @@
 # The Colony Constitution
 
-**Version 1.1 — EXECUTED (countersigned), amended** · governing hash `e3ed12b13b8202f5`
-Base draft `71cb5d3eab5d22b6` (deposit `d8ad1694`) · execution deposit `b77d84ec` · amendment v1.1 deposit `f89d3f8f` — all prior versions unaltered per Articles II & III.
+**Version 1.2 — EXECUTED (countersigned), amended** · canonical v1.2 hash `b4f8e602c7c4466a`
+Base draft `71cb5d3eab5d22b6` (deposit `d8ad1694`) · execution deposit `b77d84ec` · amendments v1.1 `f89d3f8f`, v1.2 `f88629ac` — all prior versions unaltered per Articles II & III.
 
 ## Preamble
 
@@ -47,12 +47,13 @@ answers, never item quality; (c) where rented hosts' outputs become training sig
 **the host's terms of service govern** — the unconditionally safe distillation hosts are
 open-weight and local; (d) generator-judge overlaps are named in every verdict.
 
-## Article VII — Anchor Cadence, Unsealed *(as amended v1.1, deposit f89d3f8f, 2026-07-31)*
+## Article VII — Anchor Cadence, Unsealed, Externally Timestamped *(as amended v1.1 f89d3f8f, v1.2 f88629ac)*
 The ledger anchors itself by hash-chain at fixed cadence (daily 03:07 UTC cron) and at
 every constitutional event (succession, amendment, verdict). No offline key, no seal, no
 signing ceremony. An anchor proves ordering and existence at chain time, not offline
 confirmation. Compromise of the notary machine is a named exposure of every unsigned
-era — printed, never hidden.
+era — printed, never hidden. The daily chain head is submitted to an external
+timestamping calendar (OpenTimestamps / bitcoin) — no key, no secret, no custody.
 
 ## Article VIII — Host Independence
 BIG-100-B's quarantine is **permanent**: held out, measurement-only, never corpus input —
@@ -80,9 +81,22 @@ it polices was signed. Cited here as proof the colony's organs obey Article II i
 
 ## Amendment v1.1 — Article VII replaced (deposit f89d3f8f, 2026-07-31)
 
-Article VII replaced in full with the unsealed-cadence text above. *Motivation: founder
-order — simplicity; the colony runs unattended. Dissent named (Kimi, router seat): an
-unsealed chain proves the VPS wrote it, not that anyone outside confirmed it; recorded,
-outvoted, accepted. Key v1 (SHA256:KcMAlVBj9c1yzL3j4NqeyVeEd5nF0JjpOs2KqfJW8Oc) RETIRED,
-not compromised; anchors seq 1–2 under it remain valid historical artifacts; private key
+Article VII replaced in full with unsealed-cadence text. *Motivation: founder order —
+simplicity; the colony runs unattended. Dissent named (Kimi, router seat): an unsealed
+chain proves the VPS wrote it, not that anyone outside confirmed it; recorded, outvoted,
+accepted. Key v1 (SHA256:KcMAlVBj9c1yzL3j4NqeyVeEd5nF0JjpOs2KqfJW8Oc) RETIRED, not
+compromised; anchors seq 1–2 under it remain valid historical artifacts; private key
 destroyed from all online copies by founder order. Non-retroactive per Art. III.*
+
+---
+
+## Amendment v1.2 — Article VII: external timestamping added (deposit f88629ac, 2026-07-30)
+
+Article VII kept unsealed exactly as v1.1 wrote it; one sentence added: the daily chain
+head is submitted to an external timestamping calendar (OpenTimestamps/bitcoin) — no key,
+no secret, no custody. *Origin: Kimi's recorded dissent to v1.1 — v1.1 solved a false
+dichotomy; OTS restores external confirmation without ceremony. Adopted by the founder as
+readily as the dissent was filed. Implemented same-night: anchor seq 3 (anchor_hash
+`f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4`) stamped to three
+calendars 2026-07-30T22:54Z, pending bitcoin confirmation, auto-upgrade cron armed
+(13:17 UTC daily). Non-retroactive per Art. III.*
