@@ -1,7 +1,7 @@
 # The Colony Constitution
 
-**Version 1.0 — EXECUTED (countersigned)** · hash `ea4a1ed4a1f73264` · deposit `b77d84ec-1459-4247-8819-e5b9db085202`
-Base draft hash `71cb5d3eab5d22b6` (deposit `d8ad1694`) — superseded as governing copy, unaltered per Article II.
+**Version 1.1 — EXECUTED (countersigned), amended** · governing hash `e3ed12b13b8202f5`
+Base draft `71cb5d3eab5d22b6` (deposit `d8ad1694`) · execution deposit `b77d84ec` · amendment v1.1 deposit `f89d3f8f` — all prior versions unaltered per Articles II & III.
 
 ## Preamble
 
@@ -47,12 +47,12 @@ answers, never item quality; (c) where rented hosts' outputs become training sig
 **the host's terms of service govern** — the unconditionally safe distillation hosts are
 open-weight and local; (d) generator-judge overlaps are named in every verdict.
 
-## Article VII — Key Custody and Anchor Cadence
-The anchor's private key is the notary's seal: it lives **offline**, never on any machine
-that runs a self-modifying process. Anchoring happens at a fixed cadence and at every
-constitutional event (succession, amendment, verdict). Compromise is assumed possible:
-a published recovery procedure rotates custody by new deposit, and the rotation names —
-but never rewrites — the exposed interval.
+## Article VII — Anchor Cadence, Unsealed *(as amended v1.1, deposit f89d3f8f, 2026-07-31)*
+The ledger anchors itself by hash-chain at fixed cadence (daily 03:07 UTC cron) and at
+every constitutional event (succession, amendment, verdict). No offline key, no seal, no
+signing ceremony. An anchor proves ordering and existence at chain time, not offline
+confirmation. Compromise of the notary machine is a named exposure of every unsigned
+era — printed, never hidden.
 
 ## Article VIII — Host Independence
 BIG-100-B's quarantine is **permanent**: held out, measurement-only, never corpus input —
@@ -74,4 +74,15 @@ it polices was signed. Cited here as proof the colony's organs obey Article II i
 
 *Countersigned: Gudmundur Eyberg — founder seat. The record's past is untouchable; my seat is held at fitness like every other; I will never ask for a record to be revised, only superseded. 2026-07-31.*
 
-*Base document hash `71cb5d3eab5d22b6` (deposit `d8ad1694`); this executed version supersedes it as the governing copy — the base remains in the record, unaltered, per Article II.*
+*Base document hash `71cb5d3eab5d22b6` (deposit `d8ad1694`); the executed version supersedes it as the governing copy — the base remains in the record, unaltered, per Article II.*
+
+---
+
+## Amendment v1.1 — Article VII replaced (deposit f89d3f8f, 2026-07-31)
+
+Article VII replaced in full with the unsealed-cadence text above. *Motivation: founder
+order — simplicity; the colony runs unattended. Dissent named (Kimi, router seat): an
+unsealed chain proves the VPS wrote it, not that anyone outside confirmed it; recorded,
+outvoted, accepted. Key v1 (SHA256:KcMAlVBj9c1yzL3j4NqeyVeEd5nF0JjpOs2KqfJW8Oc) RETIRED,
+not compromised; anchors seq 1–2 under it remain valid historical artifacts; private key
+destroyed from all online copies by founder order. Non-retroactive per Art. III.*
