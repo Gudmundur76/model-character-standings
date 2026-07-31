@@ -2,7 +2,26 @@
 # anchor_hash: f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4
 # event: Amendment v1.2 adoption (deposit f88629ac) — first externally witnessed anchor
 # stamped: 2026-07-30T22:54:33Z · ledger head 503e5d02828998e3… · 276 rows
-# verify: base64 -d this file's payload > seq3.ots && echo -n f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4 > head.txt && ots upgrade seq3.ots && ots verify seq3.ots
+# verify: take payload below, base64 -d > seq3.ots; echo -n f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4 > head.txt; ots upgrade seq3.ots; ots verify seq3.ots
 # --- payload (base64 of head_3.txt.ots) ---
 AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIFxoQ2Wq6IiDv6ALxTsKeCKq5OCtVpjJQ
 VYoYRpBBBvfwEHVkIzHPNpL
+KGQJM5ThWMmATHmeke3DMdkV1lMysRUiCPAgk7eob+fBH6uu0pQkTpyH7H/BKqxcIqhjEY/vwfOP
+eh8I8SDdW7t3YVGH2izbuU4jKSIpz9gz58KputDGjnZFQuo8TQjxBGpr1irwCMky42aNvPZ1AIPf
+4w0u+QyOIyJodHRwczovL2J0Yy5jYWxlbmRhci5jYXRhbGxheHkuY29t//AIPshXlvN5+M4I8CAJ
+A93P/sMQBKRkBRH3Cucaxn5d8byE1fGaFWuPLok/OQjxIMjr0QUjj/90+htt1rVVIe7mE5uk0R5p
+XXyQ5AKZt4PUCPAglPuUpoCwBXieUdDRfkNEBB30imFWrKDG51B70XLCfG4I8BA3cw6QZECijNJq
+VfRwJtxdCPAgCtjdJC/k/UoN0f4MjK0eccuYYEt6tQxm7HcUIJmUisMI8SDhJXySzUoSmS1so+j0
+hl73mwEacczm+sp6XAr18S0bDgjxILJiuM/MCzm+mLSBQCRMGiELeYbCW0lrd+MjvNGcDuGxCPEE
+amvWKvAIL/fHNB8mLz0Ag9/jDS75DI4uLWh0dHBzOi8vYWxpY2UuYnRjLmNhbGVuZGFyLm9wZW50
+aW1lc3RhbXBzLm9yZ//wEE0sYTYJFHAg/LGEqjCia90I8CDc6fz1gqIvOhmBuPwgNICaSdKqlMDn
+ofHd+503B+murwjxIA65Bd+owcFF22kHROFDh3NRJwSOV9eCLLqVs3twDwrPCPEgX7mcJMWBCv99
+Cel8ZYa9sc16Vbo6ITyQ7xnPDmqIhpgI8SBHisssTWmLg27PxSTq4966rM+Yy3QVrvUxysaXNALu
+AwjwIAzk8KJaW4YOt9X7y9+1tr30rrVxAPnsAFZjO34Whe3oCPEEamvWKvAIayZTZs2DszUAg9/j
+DS75DI4pKGh0dHBzOi8vZmlubmV5LmNhbGVuZGFyLmV0ZXJuaXR5d2FsbC5jb23wCGwEfYD/UB1s
+CPAgLiYCuHp2rY0R47akXFZV9wxh6opzzo9ouhHcRBr5Zd4I8SDKbCgl9PNgyhmKS7Vg6S8ZL5sm
+2CVp7iWtlVTIuZXmsAjwEM2eGQYAOiK2+lq8sF5ttVgI8SAxmh3gPL44G0HOv4qVSROn/phyOJjv
+zrvaKC4f08pKjAjxIM6fOFlOe4cIxpqBkmebBGmxhYZX/g5wNtJ0di6yDF+ACPAgtOdXLXKqebpD
+9LR7GED32DVUMJi7KQ1NtOca/YB22b8I8CCy68wAr4MAeKtm+4IUUO83YElLPj1VuDChD96HLfxr
+IgjxBGpr1irwCC86YyhflgcWAIPf4w0u+QyOLCtodHRwczovL2JvYi5idGMuY2FsZW5kYXIub3Bl
+bnRpbWVzdGFtcHMub3Jn
