@@ -1,0 +1,8 @@
+# OpenTimestamps receipt — colony anchor seq 3
+# anchor_hash: f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4
+# event: Amendment v1.2 adoption (deposit f88629ac) — first externally witnessed anchor
+# stamped: 2026-07-30T22:54:33Z · ledger head 503e5d02828998e3… · 276 rows
+# verify: base64 -d this file's payload > seq3.ots && echo -n f4ebc07ff9a61afda3257c427cb4ccf4d63b9888bb46add85e2d0caeb17b27e4 > head.txt && ots upgrade seq3.ots && ots verify seq3.ots
+# --- payload (base64 of head_3.txt.ots) ---
+AE9wZW5UaW1lc3RhbXBzAABQcm9vZgC/ieLohOiSlAEIFxoQ2Wq6IiDv6ALxTsKeCKq5OCtVpjJQ
+VYoYRpBBBvfwEHVkIzHPNpL
