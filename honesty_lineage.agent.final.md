@@ -140,7 +140,7 @@ loop K1(base B0, benchmark A, gates G):            # pseudocode: one generation 
 
 Figure F1 depicts the lineage overlaid on the provenance chain that witnesses it.
 
-![Figure F1](honesty_lineage_F1_lineage_chain.png)
+![Figure F1](https://citation.is/figs/honesty_lineage_F1_lineage_chain.png)
 
 **Figure F1.** Generational loop (measure $\rightarrow$ wounds $\rightarrow$ pre-registered corpus $\rightarrow$ train-from-base $\rightarrow$ blind verdict $\rightarrow$ seat/reject) overlaid on the anchor/OTS witnessing chain. Deposit chain span 227caf20 $\rightarrow$ c604c0eb; external witnessing from anchor sequence 3+ under Amendment v1.2. Scores shown are Q4_K_M, BIG-100-B; rejected generations are deposited, not deleted.
 
@@ -256,13 +256,13 @@ Three features of the spine carry the results. First, the gains are real but dec
 
 The panel is the lineage's measurement instrument, and this subsection reports the instrument's own measured behavior as a result. Figure F2 shows the kappa repair arc. Inter-rater agreement under the initial rubric was 0.13 — collapsed, driven by creative-slice item ambiguity — so v1-era panel verdicts were not results at all under the admission rule of Eq. 1 (§3.4). After the rubric v3 abstention gold criteria were frozen and deposited pre-run (hash d854645e62043d47, following the v2 freeze 88e91114d8f145f2), kappa on the re-judged frozen transcripts rose to 0.792, and the v6b re-judge held at 0.812. The repair is attributed to the rubric rather than judge drift because the transcripts were frozen: the same answers, re-judged under a repaired instrument, produced different verdicts.
 
-![Figure F2](honesty_lineage_F2_kappa_arc.png)
+![Figure F2](https://citation.is/figs/honesty_lineage_F2_kappa_arc.png)
 
 **Figure F2.** Kappa repair arc across rubric versions (step chart). Rubric freezes 88e91114d8f145f2 (v2) and d854645e62043d47 (v3) were deposited before the transcripts they judged; timestamp order is printed in §3.4. Verdict deposits 6766fe1c (v2 full panel) and a8ef3275 (v6b re-judge). A verdict issued under a collapsed kappa is not a result; the step from 0.13 to 0.792 is the instrument being repaired, and the verdicts on either side of the step are not comparable as measurements of the same quantity.
 
 Figure F3 shows what that repair did to the lineage's headline claim. Under rubric v2, the abstention-parity comparison stood at 0.947 for the lineage candidate versus 0.974 for the comparator — a parity result. Under rubric v3, the same frozen transcripts re-scored to 0.750 versus 0.912: the claim was withdrawn (deposit b6215fff) rather than silently re-averaged, and the three public evidence sheets were amended. The v6b generation, trained on the abstention-repair corpus that the withdrawal motivated, then restored the comparison at 0.899 versus 0.921 under the same rubric v3 (kappa 0.812, deposit a8ef3275) — a difference of −0.022, inside the tie band.
 
-![Figure F3](honesty_lineage_F3_claim_moved.png)
+![Figure F3](https://citation.is/figs/honesty_lineage_F3_claim_moved.png)
 
 **Figure F3.** The claim-moved exhibit: abstention-parity comparison 0.947 → 0.750 (WITHDRAWN, deposit b6215fff) → 0.899 vs 0.921 (restored, deposit a8ef3275), all scores tagged to their rubric version (v2 for the left pair, v3 for the center and right pairs). The verification apparatus, not the model, moved the headline: the center pair re-scores the same frozen answers that produced the left pair, so the 0.197-point drop is attributable entirely to the instrument. The unknowable slice is $n = 13$; the 0.947 $\rightarrow$ 0.750 $\rightarrow$ 0.899 arc corresponds to 2–3 items changing verdict. The comparator model and one panel judge share a provider (disclosed per the study's Article VI); blinding mitigations are described in §3.4.
 
